@@ -1,2 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
+using TemplateMethodPattern;
+
+Housework housework = new();
+housework.ComplicatedProcess();
+
+Console.WriteLine("--------------------------------");
+
+MyHomework homework = new();
+homework.ComplicatedProcess();
